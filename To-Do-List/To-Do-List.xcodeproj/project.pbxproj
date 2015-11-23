@@ -13,7 +13,16 @@
 		464859841BAB71A000190B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464859831BAB71A000190B2B /* Assets.xcassets */; };
 		464859921BAB71A000190B2B /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464859911BAB71A000190B2B /* To_Do_ListTests.swift */; };
 		4648599D1BAB71A000190B2B /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4648599C1BAB71A000190B2B /* To_Do_ListUITests.swift */; };
-		46CEEDED1BC8EBC9009F8390 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CEEDEC1BC8EBC9009F8390 /* AddItemViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		46CEEDED1BC8EBC9009F8390 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CEEDEC1BC8EBC9009F8390 /* AddItemViewController.swift */; };
+		46D80B821C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B771C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.m */; };
+		46D80B831C0272AA00731CB6 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B791C0272AA00731CB6 /* SWCellScrollView.m */; };
+		46D80B841C0272AA00731CB6 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B7B1C0272AA00731CB6 /* SWLongPressGestureRecognizer.m */; };
+		46D80B851C0272AA00731CB6 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B7D1C0272AA00731CB6 /* SWTableViewCell.m */; };
+		46D80B861C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B7F1C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		46D80B871C0272AA00731CB6 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B811C0272AA00731CB6 /* SWUtilityButtonView.m */; };
+		46D80B8A1C0278A200731CB6 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D80B891C0278A200731CB6 /* check@2x.png */; };
+		46D80B8C1C0278AA00731CB6 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D80B8B1C0278AA00731CB6 /* cross@2x.png */; };
+		46D80B8E1C0290BA00731CB6 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D80B8D1C0290BA00731CB6 /* StatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,22 @@
 		4648599C1BAB71A000190B2B /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		4648599E1BAB71A000190B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46CEEDEC1BC8EBC9009F8390 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = ../AddItemViewController.swift; sourceTree = "<group>"; };
+		46D80B751C0272A900731CB6 /* To-Do-List-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "To-Do-List-Bridging-Header.h"; sourceTree = "<group>"; };
+		46D80B761C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		46D80B771C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		46D80B781C0272AA00731CB6 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		46D80B791C0272AA00731CB6 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		46D80B7A1C0272AA00731CB6 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		46D80B7B1C0272AA00731CB6 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		46D80B7C1C0272AA00731CB6 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		46D80B7D1C0272AA00731CB6 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		46D80B7E1C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		46D80B7F1C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		46D80B801C0272AA00731CB6 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		46D80B811C0272AA00731CB6 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		46D80B891C0278A200731CB6 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		46D80B8B1C0278AA00731CB6 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		46D80B8D1C0290BA00731CB6 /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +124,15 @@
 			children = (
 				464859791BAB71A000190B2B /* AppDelegate.swift */,
 				4648597B1BAB71A000190B2B /* ViewController.swift */,
+				46D80B8D1C0290BA00731CB6 /* StatsViewController.swift */,
 				46CEEDEC1BC8EBC9009F8390 /* AddItemViewController.swift */,
+				46D80B891C0278A200731CB6 /* check@2x.png */,
+				46D80B8B1C0278AA00731CB6 /* cross@2x.png */,
+				46D80B881C0272B600731CB6 /* SWTableViewCell */,
 				464859831BAB71A000190B2B /* Assets.xcassets */,
 				464859881BAB71A000190B2B /* Info.plist */,
 				464859801BAB71A000190B2B /* To_Do_List.xcdatamodeld */,
+				46D80B751C0272A900731CB6 /* To-Do-List-Bridging-Header.h */,
 			);
 			path = "To-Do-List";
 			sourceTree = "<group>";
@@ -123,6 +153,25 @@
 				4648599E1BAB71A000190B2B /* Info.plist */,
 			);
 			path = "To-Do-ListUITests";
+			sourceTree = "<group>";
+		};
+		46D80B881C0272B600731CB6 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				46D80B761C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.h */,
+				46D80B771C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.m */,
+				46D80B781C0272AA00731CB6 /* SWCellScrollView.h */,
+				46D80B791C0272AA00731CB6 /* SWCellScrollView.m */,
+				46D80B7A1C0272AA00731CB6 /* SWLongPressGestureRecognizer.h */,
+				46D80B7B1C0272AA00731CB6 /* SWLongPressGestureRecognizer.m */,
+				46D80B7C1C0272AA00731CB6 /* SWTableViewCell.h */,
+				46D80B7D1C0272AA00731CB6 /* SWTableViewCell.m */,
+				46D80B7E1C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.h */,
+				46D80B7F1C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.m */,
+				46D80B801C0272AA00731CB6 /* SWUtilityButtonView.h */,
+				46D80B811C0272AA00731CB6 /* SWUtilityButtonView.m */,
+			);
+			name = SWTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +236,7 @@
 		4648596E1BAB71A000190B2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Sheng Wang";
 				TargetAttributes = {
@@ -229,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				464859841BAB71A000190B2B /* Assets.xcassets in Resources */,
+				46D80B8A1C0278A200731CB6 /* check@2x.png in Resources */,
+				46D80B8C1C0278AA00731CB6 /* cross@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4648597C1BAB71A000190B2B /* ViewController.swift in Sources */,
+				46D80B8E1C0290BA00731CB6 /* StatsViewController.swift in Sources */,
+				46D80B851C0272AA00731CB6 /* SWTableViewCell.m in Sources */,
+				46D80B841C0272AA00731CB6 /* SWLongPressGestureRecognizer.m in Sources */,
+				46D80B821C0272AA00731CB6 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				46CEEDED1BC8EBC9009F8390 /* AddItemViewController.swift in Sources */,
+				46D80B831C0272AA00731CB6 /* SWCellScrollView.m in Sources */,
 				464859821BAB71A000190B2B /* To_Do_List.xcdatamodeld in Sources */,
+				46D80B871C0272AA00731CB6 /* SWUtilityButtonView.m in Sources */,
+				46D80B861C0272AA00731CB6 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				4648597A1BAB71A000190B2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,10 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "To-Do-List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShengWang.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "To-Do-List/To-Do-List-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -388,10 +451,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "To-Do-List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShengWang.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "To-Do-List/To-Do-List-Bridging-Header.h";
 			};
 			name = Release;
 		};

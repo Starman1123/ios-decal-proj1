@@ -20,7 +20,7 @@ class AddItemViewController: UIViewController, NSFetchedResultsControllerDelegat
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.view.backgroundColor = UIColor.whiteColor()
         self.cancelItem = UIBarButtonItem(title: "cancel", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("cancelButtonClicked"))
         self.addItem = UIBarButtonItem(title: "add", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("addButtonClicked"))
         self.navigationItem.leftBarButtonItem = cancelItem
